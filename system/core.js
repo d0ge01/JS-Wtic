@@ -52,6 +52,7 @@ Wtic = {
 		user_input.id = "old"+Wtic.counter;
 		eval("old"+Wtic.counter).disabled = true;
 		var valid = false;
+		Wtic.lastInput[0] = Wtic.lastInput[0].toLowerCase();
 		if ( Wtic.lastInput[0] == "help" )
 		{
 			valid = true;
